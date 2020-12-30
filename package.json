@@ -1,0 +1,30 @@
+{
+  "name": "niyau_frontend",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Ivanhahanov <ivanhahanov13@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "chart.js": "^2.9.4",
+    "nuxt": "^2.0.0",
+    "vue-chartjs": "^3.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.0.2",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
