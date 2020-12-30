@@ -22,12 +22,12 @@ $ npm run generate
 ## Build with docker
 
 ```bash
-docker build -t niyau_front .
+docker build -t ntsecurity_front .
 ```
 
 ## Run Docker container
 
 ```bash
-docker run -p3000:3000 niyau_front
+docker run -p3000:3000 ntsecurity_front
 ```
 
